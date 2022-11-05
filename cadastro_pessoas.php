@@ -26,40 +26,47 @@ if(!isset($_SESSION["usuarioNome"]) and !isset($_SESSION["usuarioNome"]))
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="theme-color" content="#33b5e5">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-	<link rel="stylesheet" href="./css/meucss.css">
-    <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
-    <link rel='stylesheet' id='roboto-subset.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5' type='text/css' media='all' />
-    <meta charset="utf-8">
-    <meta name="description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta name="image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta itemprop="name" content="Bootstrap Login Form - free examples, templates &amp; tutorial">
-    <meta itemprop="description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta itemprop="image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Bootstrap Login Form - free examples, templates &amp; tutorial">
-    <meta property="twitter:description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta property="twitter:site" content="@MDBootstrap">
-    <meta property="twitter:creator" content="@MDBootstrap">
-    <meta property="twitter:image:src" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta property="twitter:player" content="">
-    <meta property="og:title" content="Bootstrap Login Form - free examples, templates &amp; tutorial">
-    <meta property="og:description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta property="og:image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta property="og:url" content="https://mdbootstrap.com/docs/standard/extended/login/">
-    <meta property="og:site_name" content="MDB - Material Design for Bootstrap">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:video" content="">
-    <meta property="fb:admins" content="443467622524287">
-    <meta property="og:type" content="website">
-    <link rel="shortcut icon" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/favicon.ico" />		
-<link href="css/bootstrap.min.css" rel="stylesheet">
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <body>
-<table width="100%" border="0" cellspacing="1" cellpadding="1">
-  <tr>
+<table class="list-inline  sticky-top" width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tr >
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin:24px 0;">
+  <img class="imgTamanho navbar-brand" src="./img/logo.png" style="width:110px;height:60px;"></img>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navb">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.php">INICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cadastro_pessoas.php">CADASTRAR</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="entrada.php">LIBERAR ENTRADA</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="s_sair.php">LIBERAR SAIDA</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="r_entrada.php">RELAÇÃO DE ENTRADAS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="pesquisa.php">PESQUISA CADASTROS</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn btn-success my-2 my-sm-0" href="sair.php" type="button">SAIR</button>
+    </form>
+  </div>
+</nav>
+
     <th scope="col"><ul class="nav nav-tabs">
    <li role="presentation" class="active"><a href="index.php">INICIO</a></li>
   <li role="presentation"><a href="cadastro_pessoas.php">CADASTRAR</a></li>
@@ -72,6 +79,8 @@ if(!isset($_SESSION["usuarioNome"]) and !isset($_SESSION["usuarioNome"]))
 	<th><a href="sair.php">Sair</a></th>
   </tr>
 </table>
+
+
    <div class='container'>
 		<fieldset>
 			<legend>

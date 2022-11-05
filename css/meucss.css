@@ -10,3 +10,8 @@
     }
 
 #success_message{ display: none;}
+
+.imgTamanho {
+    height: 9%;
+    width: 15%;
+  }

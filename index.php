@@ -11,43 +11,29 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="theme-color" content="#33b5e5">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-	<link rel="stylesheet" href="./css/meucss.css">
-    <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
-    <link rel='stylesheet' id='roboto-subset.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/mdb5/fonts/roboto-subset.css?ver=3.9.0-update.5' type='text/css' media='all' />
-    <meta charset="utf-8">
-    <meta name="description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta name="image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta itemprop="name" content="Bootstrap Login Form - free examples, templates &amp; tutorial">
-    <meta itemprop="description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta itemprop="image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Bootstrap Login Form - free examples, templates &amp; tutorial">
-    <meta property="twitter:description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta property="twitter:site" content="@MDBootstrap">
-    <meta property="twitter:creator" content="@MDBootstrap">
-    <meta property="twitter:image:src" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta property="twitter:player" content="">
-    <meta property="og:title" content="Bootstrap Login Form - free examples, templates &amp; tutorial">
-    <meta property="og:description" content="Responsive login form built with Bootstrap 5. Collection of examples for signup forms, full page login templates, login modals &amp; many other sign in designs.">
-    <meta property="og:image" content="https://mdbcdn.b-cdn.net/docs/standard/extended/login/assets/featured.jpg">
-    <meta property="og:url" content="https://mdbootstrap.com/docs/standard/extended/login/">
-    <meta property="og:site_name" content="MDB - Material Design for Bootstrap">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:video" content="">
-    <meta property="fb:admins" content="443467622524287">
-    <meta property="og:type" content="website">
-    <link rel="shortcut icon" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/favicon.ico" />		
-<link href="css/bootstrap.min.css" rel="stylesheet">
-        
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       
 </head>
 
 <body>
-<table width="100%" border="0" cellspacing="1" cellpadding="1">
-  <tr>
+<nav class="navbar navbar-dark bg-dark">
+  Navbar content
+</nav>
+
+<nav class="navbar navbar-dark bg-primary">
+  Navbar content
+</nav>
+
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  Navbar content
+</nav>
+
+
+  <p class="fixed-bottom">
+<table  width="100%" border="0" cellspacing="1" cellpadding="1">
+  <tr class="fixed-bottom">
     <th scope="col"><ul class="nav nav-tabs">
    <li role="presentation" class="active"><a href="index2.php">INICIO</a></li>
   <li role="presentation"><a href="cadastro_pessoas.php">CADASTRAR</a></li>
@@ -58,7 +44,7 @@
   <li role="presentation"><a href="pesquisa.php">PESQUISA CADASTROS</a></li> 
 </ul>&nbsp;</th>
   </tr>
-  
+</p>
 	   
 	   
   
@@ -291,6 +277,7 @@
 </form>
 </div>
     </div><!-- /.container -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
